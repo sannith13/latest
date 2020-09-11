@@ -30,14 +30,7 @@ pipeline
                 
             }
         }
-         stage("docker image build")
-           {
-         steps
-               {
-              sh 'docker build -t sannithrao/springapp .'
-                  }
-}
-
+         
     }
 }
 
